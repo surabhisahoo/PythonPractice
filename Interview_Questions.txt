@@ -16,3 +16,33 @@
 15. Sql query to find customer from grade greater than 1000?
 16. Sql query to find customer city NYC and grade less than 1000?
 17. Sql query to find customer with city not NYC and grade less than 1000?
+18. How to find the missing value in sequence?
+19. How to find the duplicate value from sequence?
+20. find the first duplicate character in the string?
+21. There is sequence l = [1,2,3,4] WAP to print the last number first then rest?
+a[-1:] + a[:-1]
+22. WAP to print 10 random alphabet from a-z?
+import random
+import string
+a = string.ascii.lower_case
+random.sample(a, 10)
+print(a)
+
+23. WAP to ping a server for 3000 sec, return True if success or return False?
+import os
+
+s = os.system('ping -n 3000 www.google.com')
+if s == 0:
+   return True
+else:
+   return False
+
+24. WAP to launch to a page assert to title if title is true else give an alert and go back
+
+25. regular Expression
+import re
+
+1. re.match('', String) # to match the first word of the string
+2. re.search('', String) # to search the desired word in the string
+
+
