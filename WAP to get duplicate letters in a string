@@ -1,0 +1,11 @@
+#solution 1
+# for i,x in enumerate(s):
+#     if i == s.index(x):
+#         print(x , end= '')
+
+#solution 2
+
+for i in s:
+    if i in s[s.index(i)+1:]:
+        s.remove(i)
+print("".join(s))
