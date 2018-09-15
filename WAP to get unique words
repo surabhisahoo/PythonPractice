@@ -1,0 +1,18 @@
+
+
+
+l = []
+with open("test1", 'r') as o:
+    lines = o.readlines()
+    #print(lines)
+    for line in lines:
+        a = line.split(" ")
+        print(a)
+        # to get unique words
+        for x in a:
+          if x not in l:
+            l.append(x)
+          else:
+            pass
+ print(l)
+
