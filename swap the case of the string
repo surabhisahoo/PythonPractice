@@ -1,0 +1,11 @@
+s = "heLLo woRld"
+print(s.swapcase())
+
+# second approach
+s = "hELlO wOrLD"
+
+for i in s:
+    if i.islower():
+        print(i.upper() , end="")
+    else:
+        print(i.lower() , end="")
