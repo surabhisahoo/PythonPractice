@@ -1,0 +1,19 @@
+import os
+
+#make directory
+os.mkdir('<path>')
+
+#change root directory to current path
+os.chroot('path')
+
+#display list of files
+os.listdir('path')
+
+#delete file from the path
+os.remove('path')
+
+#remane files or directory
+os.rename('file1.txt', 'renamefile.txt')
+
+#open a file
+os.popen('file name', 'r')
