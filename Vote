@@ -1,0 +1,13 @@
+votes = ["john", "johnny", "jackie",
+                    "johnny", "john", "jackie",
+                    "jamie", "jamie", "john",
+                    "johnny", "jamie", "johnny",
+                    "john"]
+d = {}
+
+for i in votes:
+    if i not in d:
+        d[i] = 1
+    else:
+        d[i] = d[i] + 1
+print (d)
