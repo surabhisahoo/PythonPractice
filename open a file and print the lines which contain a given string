@@ -1,0 +1,15 @@
+import re
+
+#count number of lines
+line = sum(1 for line in open('test1'))
+print(line)
+with open ('test1') as o:
+    #count number of lines
+    # l = len(o.readlines())
+    # print(l)
+    while line > 0:
+        l = o.readline()
+        s = re.findall("POST", l, re.I)
+        if s:
+            print(l)
+        line -=1
