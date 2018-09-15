@@ -1,0 +1,44 @@
+import os
+import re
+import shutil
+
+os.chdir(r"C:\Users\surabhi.sahoo\Desktop\questions\tstfolder")
+a = os.listdir()
+print(a)
+try:
+    os.mkdir("copyfolder")
+except FileExistsError:
+    pass
+# print("#"*30)
+
+for file in a:
+    # print(file)
+    # print("#" * 30)
+    flag = False
+    # if file.endswith(".txt"):
+    if os.path.isfile(file):
+        with open(file) as f:
+            lines = f.readlines()
+            # for line in lines:
+            #    print(re.findall('\S+', str(line)))
+            for line in lines:
+                result = re.findall("surabhi", line)
+                # result = re.search("\w+\W?\w+\W?\w+\W?\w+", line)
+                # result = re.search("\w{2}\W?\w{2}\W?\w{2}\W?\w{3}", line)
+                # result = re.search("\d{2}\D?\d{2}\D?\d{2}\D?\d{3}", line)
+                result = re.s
+
+                if len(result)>0:
+                    print(result,file)
+                    flag = True
+    if flag:
+
+        if os.path.exists(r"copyfolder\%s" % file):
+            os.remove(r"copyfolder\%s" % file)
+
+        shutil.copy(file, "copyfolder")
+    print(os.listdir("copyfolder"))
+
+
+
+
