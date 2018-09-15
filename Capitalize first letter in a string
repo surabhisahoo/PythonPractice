@@ -1,0 +1,8 @@
+a = "hello world"
+# first approach
+print(string.capwords(a, ' '))
+print("*"*10)
+#second approach
+b = a.split(" ")
+print(' '.join(word.capitalize() for word in b))
+print("*"*10)
