@@ -1,0 +1,18 @@
+''' find missing number'''
+#solution 1
+l = [1,2,3,5,6,4,8,7,10]
+# s1 = sum(l)
+# s2 = sum(range(1,7))
+# missing = abs(s1 - s2)
+# print(missing)
+
+#solution 2
+# n = len(l)
+# #total = (n) * (n+1)/2
+# miss = int(abs(((n+1) * (n+2)/2)-sum(l)))
+# print(miss)
+
+#solution 3
+n = len(l) + 1
+miss = int (n * (n+1)/2) - sum(l)
+print(miss)
