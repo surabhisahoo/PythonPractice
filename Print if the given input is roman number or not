@@ -1,0 +1,11 @@
+roman = ['I', 'V', 'X', 'L', 'C', 'D', 'M']
+a = []
+s = input("Enter roman number")
+for i in s:
+    if i in roman:
+        a.append(i)
+        print("roman")
+    else:
+        print('not a roman')
+print(a)
+print(''.join(a))
