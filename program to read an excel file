@@ -1,0 +1,13 @@
+import xlrd
+
+with open(r"C:\Users\surabhi.sahoo\Desktop\Automation_Failure_Skip_Analysis.xlsx") as excel:
+    file = xlrd.open_workbook(r"C:\Users\surabhi.sahoo\Desktop\Automation_Failure_Skip_Analysis.xlsx")
+    print(file.nsheets)
+    print(file.sheet_by_index(0))
+    print(file.sheet_names())
+    abc = file.sheet_by_name("Failure Analysis-<Module>")
+    print(abc.nrows)
+    print(abc.ncols)
+    for j in range(0, 3):
+        for i in range(1, 4):
+            print('{}'.format(abc.cell_value(i, j)))
