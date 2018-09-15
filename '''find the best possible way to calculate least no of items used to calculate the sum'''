@@ -1,0 +1,20 @@
+l = [2,1,5]
+sum = 13
+l.sort()
+l = l[::-1]
+rem = sum
+d ={}
+for i in l:
+    count = 0
+    while rem > 0:
+        if rem > i:
+            rem = rem - i
+            count += 1
+            d[i] = count
+        elif rem == i:
+            rem = rem -i
+            count += 1
+            d[i] = count
+        else:
+            break
+print(d)
