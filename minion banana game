@@ -1,0 +1,21 @@
+def surabhi(string):
+# string = 'banana'
+    vowels = 'AEIOUaeiou'
+    kelvinC = 0
+    sturatC = 0
+    for i in range(0, len(string)):
+        if string[i] in vowels:
+            kelvinC += (len(string)-i)
+        else:
+            sturatC += (len(string)-i)
+    print(kelvinC, sturatC)
+    if kelvinC > sturatC:
+        print("Kevin", kelvinC)
+    elif sturatC > kelvinC:
+        print("Stuart", sturatC)
+    else:
+        print("Draw")
+
+if __name__ == '__main__':
+    string = 'banana'
+    surabhi(string)
