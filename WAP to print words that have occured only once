@@ -1,0 +1,20 @@
+#from collections import counter
+
+d = {}
+
+with open("test1", 'r') as o:
+    lines = o.readlines()
+    #print(lines)
+    for line in lines:
+        a = line.split(" ")
+        # to print the words that are not repeted
+
+        for x in a:
+            if x not in d:
+                d[x] = 1
+            else:
+                d[x] = d[x] + 1
+#print(l)
+print(d)
+unique = {k:v for k,v in d.items() if v == 1 }
+print(unique)
