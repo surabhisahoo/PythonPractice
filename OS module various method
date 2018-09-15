@@ -17,3 +17,22 @@ os.rename('file1.txt', 'renamefile.txt')
 
 #open a file
 os.popen('file name', 'r')
+
+
+print(os.name)
+print(os.curdir)
+print(os.getcwd())
+print(os.chdir('..'))
+print(os.getcwd())
+print(os.chdir('Welldoc'))
+print(os.getcwd())
+try:
+    os.mkdir('testdir1')
+except:
+    pass
+os.chdir('testdir1')
+print(os.getcwd())
+os.chdir('..')
+os.rmdir('testdir1')
+print(os.getcwd())
+print(os.listdir())
