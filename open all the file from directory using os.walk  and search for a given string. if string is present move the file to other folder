@@ -1,0 +1,14 @@
+import os
+import re
+for (dirname, dirs, files) in os.walk('.'):
+    # print(dirs)
+    for file in files:
+        file_location = os.path.join(dirname, file)
+        if file_location.endswith(".txt"):
+            print(file_location, file, "*" * 10)
+            with open(file_location) as textfile:
+                for line in textfile.readlines():
+                    #print(line)
+                    result = re.findall("post", line, re.I)
+                    if len(result) > 0:
+                        print(result, line,file_location)
