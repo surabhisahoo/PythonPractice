@@ -1,0 +1,8 @@
+with open('deepak_text.txt') as file:
+    block = [line for line in file.readlines()]
+    # print(sorted(block, key=lambda x: x.split()[1]))
+    print(block)
+    ll = block[:2]
+    ll.sort(key=lambda x: x.split()[1])
+    print(ll)
+    print(ll.extend(block[2:]))
