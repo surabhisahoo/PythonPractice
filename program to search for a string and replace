@@ -1,0 +1,17 @@
+with open(r"") as o:
+  line = o.read()
+  newdata = line.replace("","")
+with open(r"",'w') as o:
+  o.write(newdata)
+  
+second solution
+
+import re
+fw = open(r'','a')
+with open (r'','r') as file:
+  lines = file.read() 
+  repl = re.sub(r'','',lines,re.I)[0]
+  print(repl)
+  fw.write(repl)
+fw.close()
+  
