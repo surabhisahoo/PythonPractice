@@ -1,0 +1,119 @@
+1538630558268	geckodriver	INFO	geckodriver 0.19.1
+1538630558313	geckodriver	INFO	Listening on 127.0.0.1:52596
+1538630561987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SURABH~1.SAH\\AppData\\Local\\Temp\\rust_mozprofile.ZvPZhJMB4SYJ"
+1538630647812	geckodriver	INFO	geckodriver 0.19.1
+1538630647824	geckodriver	INFO	Listening on 127.0.0.1:53451
+1538630650881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SURABH~1.SAH\\AppData\\Local\\Temp\\rust_mozprofile.zLgZH14hKrEk"
+1538630656907	Marionette	INFO	Listening on port 53504
+1538630657090	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538630657133	Marionette	DEBUG	[6442450945] Frame script loaded
+1538630657157	Marionette	DEBUG	[6442450945] Frame script registered
+1538630657308	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538630660038	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1538630664069	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.zkoss.org/zkdemo/input/radio_button
+1538630665896	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538630669271	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.zkoss.org/zkdemo/input/radio_button
+[Parent 952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 952, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: C1538630694930	Marionette	INFO	Listening on port 54057
+1538630695377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538630695427	Marionette	DEBUG	[6442450945] Frame script loaded
+1538630695433	Marionette	DEBUG	[6442450945] Frame script registered
+1538630695452	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538630696915	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1538630700354	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.zkoss.org/zkdemo/input/radio_button
+1538630701965	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538630705843	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.zkoss.org/zkdemo/input/radio_button
+[Parent 16564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16564, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16564, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1538630779834	Marionette	INFO	Stopped listening on port 54057
+[GPU 12572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1538630781109	geckodriver	INFO	geckodriver 0.19.1
+1538630781122	geckodriver	INFO	Listening on 127.0.0.1:54894
+1538630784206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SURABH~1.SAH\\AppData\\Local\\Temp\\rust_mozprofile.ul1b8rK48UkP"
+1538630788509	Marionette	INFO	Listening on port 54936
+1538630789451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538630789500	Marionette	DEBUG	[6442450945] Frame script loaded
+1538630789508	Marionette	DEBUG	[6442450945] Frame script registered
+1538630789528	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1538630790711	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript error: resource:///modules/NetErrorContent.jsm, line 417: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+1538630794933	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.zkoss.org/zkdemo/input/radio_button
+1538630796643	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1538630800325	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.zkoss.org/zkdemo/input/radio_button
+1538630800604	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630800838	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630801055	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630801322	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630801561	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630801800	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630802014	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630802240	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630802479	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630802719	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630802947	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630803173	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630803407	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630803647	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1538630803874	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 19080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538630809451	Marionette	INFO	Stopped listening on port 54936
+[GPU 17604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4C0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1538631785570	geckodriver	INFO	geckodriver 0.19.1
+1538631785590	geckodriver	INFO	Listening on 127.0.0.1:49907
+1538631792629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SURABH~1.SAH\\AppData\\Local\\Temp\\rust_mozprofile.ob0IewoBRPHc"
+[Child 6928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5776, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 335)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:335:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:328:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:352:11\nwrite@resource:///modules/sessionstore/SessionFile.jsm:392:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:64:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\n"
+1538631883657	Marionette	INFO	Listening on port 49990
+1538631886291	Marionette	WARN	TLS certificate errors will be ignored for this session
+1538631886399	Marionette	DEBUG	[4294967297] Frame script loaded
+1538631886412	Marionette	DEBUG	[4294967297] Frame script registered
+1538631887997	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1538631889018	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1538631905951	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://demos.dojotoolkit.org/dijit/tests/form/test_CheckBox.html
+1538631912748	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://demos.dojotoolkit.org/dijit/tests/form/test_CheckBox.html
+1538631913117	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631913339	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631913558	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631913824	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631914043	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631914277	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631914518	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631914733	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631914970	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631915225	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631915464	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631915814	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631916027	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631916263	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631916502	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631916742	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631916970	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631917195	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631917430	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538631917668	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/nsAsyncShutdown.js, line 114: Error: We have already registered a distinct blocker with the same name: Crash Reporter: blocking on minidumpgeneration.
+[Parent 5776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5776, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16708, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1538647617499	Marionette	INFO	Stopped listening on port 49990
